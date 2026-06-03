@@ -1,0 +1,110 @@
+```gitignore
+# =========================
+# Python cache / compiled
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Distribution / packaging
+# =========================
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# =========================
+# Installer logs
+# =========================
+pip-log.txt
+pip-delete-this-directory.txt
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# PEP 582
+# =========================
+__pypackages__/
+
+# =========================
+# Virtual environments
+# =========================
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# =========================
+# Project folders
+# =========================
+runs/
+data/
+notebooks/
+papers/
+checkpoints/
+outputs/
+logs/
+
+# =========================
+# ML model files
+# =========================
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.h5
+
+# =========================
+# Arrays / ML outputs
+# =========================
+*.npy
+*.npz
+*.pkl
+*.pickle
+
+# =========================
+# CSV results
+# =========================
+metrics.csv
+results.csv
+
+# =========================
+# IDE files
+# =========================
+.idea/
+.vscode/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Archives
+# =========================
+*.zip
+*.tar
+*.gz
+```
